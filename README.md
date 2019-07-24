@@ -1,0 +1,1 @@
+# Yoshida_Campus_SanoShouta
