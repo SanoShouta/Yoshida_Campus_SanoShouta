@@ -1,0 +1,417 @@
+#-----------------------------------------------------------------------
+# ステージ1のステージ配置情報[stage1.txt]
+# Author:RyotaKinoshita
+#------------------------------------------------------------------------
+SCRIPT
+#------------------------------------------------------------------------------
+# 表示する壁の配置情報 56まで ブロック数は100X100まで
+#------------------------------------------------------------------------------
+WALLSET #奥
+	TEXTYPE = 0
+	POS = 0 0 730
+	ROT = 0 0 0
+	BLOCK = 1 1
+	SIZE = 1200 700
+	CULL = 0
+END_WALLSET
+
+WALLSET #奥
+	TEXTYPE = 1
+	POS = 0 0 -150
+	ROT = 0 180 0
+	BLOCK = 1 1
+	SIZE = 1500 1000
+	CULL = 0
+END_WALLSET
+
+WALLSET #滝
+	TEXTYPE = 1
+	POS = -450 0 400
+	ROT = 0 -0.5 0
+	BLOCK = 1 1
+	SIZE = 400 400
+	CULL = 0
+END_WALLSET
+WALLSET #壁
+	TEXTYPE = 1
+	POS = -275 0 695
+	ROT = 0 -90 0
+	BLOCK = 1 1
+	SIZE = 400 400
+	CULL = 0
+END_WALLSET
+
+WALLSET #奥
+	TEXTYPE = 1
+	POS = -800 0 405
+	ROT = 0 0.5 0
+	BLOCK = 1 1
+	SIZE = 400 400
+	CULL = 0
+END_WALLSET
+#------------------------------------------------------------------------------
+# 表示する地面の配置情報 56まで 
+#------------------------------------------------------------------------------
+# チュートリアル --------------------
+FIELDSET
+	TEXTYPE = 0
+	POS = -540 400 550
+	ROT = 0 62 0
+	BLOCK = 1 1
+	SIZE = 400 400
+	CULL = 0
+END_FIELDSET
+#滝
+FIELDSET
+	TEXTYPE = 1
+	POS = -450 200 395
+	ROT = 0 62 -90
+	BLOCK = 1 1
+	SIZE = 400 300
+	CULL = 0
+	MOVE = 0.015 0.002
+	COLLISION = 0
+END_FIELDSET
+FIELDSET
+	TEXTYPE = 2
+	POS = -450 200 395
+	ROT = 0 62 -90
+	BLOCK = 1 1
+	SIZE = 400 300
+	CULL = 0
+	MOVE = 0.017 0.001
+	COLLISION = 0
+END_FIELDSET
+#池
+FIELDSET
+	TEXTYPE = 1
+	POS = -390 15 350
+	ROT = 0 62 0
+	BLOCK = 1 1
+	SIZE = 300 300
+	CULL = 0
+	MOVE = 0.015 0.002
+	COLLISION = 0
+END_FIELDSET
+FIELDSET
+	TEXTYPE = 2
+	POS = -390 15 350
+	ROT = 0 62 0
+	BLOCK = 1 1
+	SIZE = 300 300
+	CULL = 0
+	MOVE = 0.017 0.001
+	COLLISION = 0
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 1
+	POS = -490 15 300
+	ROT = 0 62 0
+	BLOCK = 1 1
+	SIZE = 300 300
+	CULL = 0
+	MOVE = 0.015 0.002
+	COLLISION = 0
+END_FIELDSET
+FIELDSET
+	TEXTYPE = 2
+	POS = -490 15 300
+	ROT = 0 62 0
+	BLOCK = 1 1
+	SIZE = 300 300
+	CULL = 0
+	MOVE = 0.017 0.001
+	COLLISION = 0
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 1
+	POS = -420 15 270
+	ROT = 0 62 0
+	BLOCK = 1 1
+	SIZE = 250 300
+	CULL = 0
+	MOVE = 0.015 0.002
+	COLLISION = 0
+END_FIELDSET
+FIELDSET
+	TEXTYPE = 2
+	POS = -420 15 270
+	ROT = 0 62 0
+	BLOCK = 1 1
+	SIZE = 250 300
+	CULL = 0
+	MOVE = 0.017 0.001
+	COLLISION = 0
+END_FIELDSET
+
+FIELDSET
+	TEXTYPE = 1
+	POS = -400 15 150
+	ROT = 0 62 0
+	BLOCK = 1 1
+	SIZE = 100 250
+	CULL = 0
+	MOVE = 0.015 0.002
+	COLLISION = 0
+END_FIELDSET
+FIELDSET
+	TEXTYPE = 2
+	POS = -400 15 150
+	ROT = 0 62 0
+	BLOCK = 1 1
+	SIZE = 100 250
+	CULL = 0
+	MOVE = 0.017 0.001
+	COLLISION = 0
+END_FIELDSET
+#--------------------------------------------------------
+# モデルのセット
+#--------------------------------------------------------
+#--------------------------------------------------------
+SETMODEL
+	POS = 140 0.0 380
+	ROT = 0.0 0.0 0.0
+	TYPE = 0
+	COLLISION = 1
+ENDSETMODEL
+SETMODEL
+	POS = 310 0.0 350
+	ROT = 0.0 0.0 0.0
+	TYPE = 1
+	COLLISION = 1
+ENDSETMODEL
+SETMODEL
+	POS = 490 0.0 350
+	ROT = 0.0 0.0 0.0
+	TYPE = 2
+	COLLISION = 1
+ENDSETMODEL
+SETMODEL
+	POS = -400 0.0 300
+	ROT = 0.0 0.0 0.0
+	TYPE = 3
+	COLLISION = 1
+ENDSETMODEL
+SETMODEL
+	POS = -50 0.0 450
+	ROT = 0.0 0.0 0.0
+	TYPE = 4
+	COLLISION = 1
+ENDSETMODEL
+#---------------------------------------------
+#提灯
+#--------------------------------------------
+SETMODEL
+	POS = -50 300.0 200
+	ROT = 0.0 0.0 0.0
+	TYPE = 5
+	COLLISION = 1
+ENDSETMODEL
+SETMODEL
+	POS = 200 200.0 -120
+	ROT = 0.0 0.0 0.0
+	TYPE = 16
+	COLLISION = 1
+ENDSETMODEL
+SETMODEL
+	POS = 260 250.0 450
+	ROT = 0.0 0.0 0.0
+	TYPE = 16
+	COLLISION = 1
+ENDSETMODEL
+
+SETMODEL
+	POS = -50 0.0 650
+	ROT = 0.0 0.0 0.0
+	TYPE = 6
+	COLLISION = 1
+ENDSETMODEL
+SETMODEL
+	POS = -300 300.0 700
+	ROT = 0.0 0.0 0.0
+	TYPE = 6
+	COLLISION = 1
+ENDSETMODEL
+
+SETMODEL
+	POS = 400 -100.0 700
+	ROT = 0.0 0.0 0.0
+	TYPE = 6
+	COLLISION = 0
+ENDSETMODEL
+SETMODEL
+	POS = 100 -150.0 700
+	ROT = 0.0 0.0 0.0
+	TYPE = 6
+	COLLISION = 0
+ENDSETMODEL
+SETMODEL
+	POS = -450 0.0 -50
+	ROT = 0.0 0.0 0.0
+	TYPE = 6
+	COLLISION = 1
+ENDSETMODEL
+SETMODEL
+	POS = -550 0.0 200
+	ROT = 0.0 0.0 0.0
+	TYPE = 6
+	COLLISION = 1
+ENDSETMODEL
+
+SETMODEL
+	POS = 760 -100.0 650
+	ROT = 0.0 0.0 0.0
+	TYPE = 6
+	COLLISION = 0
+ENDSETMODEL
+SETMODEL
+	POS = 900 -200.0 550
+	ROT = 0.0 0.0 0.0
+	TYPE = 6
+	COLLISION = 0
+ENDSETMODEL
+#======================================
+# 石
+#======================================
+SETMODEL
+	POS = 300 0.0 150
+	ROT = 0.0 0.0 0.0
+	TYPE = 7
+	RANDOMPOS = 300 0 150
+	COLLISION = 1
+ENDSETMODEL
+SETMODEL
+	POS = 200 0.0 150
+	ROT = 0.0 0.0 0.0
+	TYPE = 8
+	RANDOMPOS = 300 0 150
+	COLLISION = 1
+ENDSETMODEL
+SETMODEL
+	POS = 200 0.0 150
+	ROT = 0.0 0.0 0.0
+	TYPE = 9
+	RANDOMPOS = 300 0 150
+	COLLISION = 1
+ENDSETMODEL
+SETMODEL
+	POS = 200 0.0 150
+	ROT = 0.0 0.0 0.0
+	TYPE = 10
+	RANDOMPOS = 300 0 150
+	COLLISION = 1
+ENDSETMODEL
+SETMODEL
+	POS = 200 0.0 150
+	ROT = 0.0 0.0 0.0
+	TYPE = 11
+	RANDOMPOS = 300 0 150
+	COLLISION = 1
+ENDSETMODEL
+#-----------
+# 地面
+#----------
+SETMODEL
+	POS = 0 0.0 300
+	ROT = 0.0 0.0 0.0
+	TYPE = 13
+	COLLISION = 1
+ENDSETMODEL
+
+
+SETMODEL
+	POS = 200 0 200
+	ROT = 0.0 0.0 0.0
+	TYPE = 14
+	COLLISION = 1
+ENDSETMODEL
+
+SETMODEL
+	POS = -50 240 450
+	ROT = 0.0 0.0 0.0
+	TYPE = 15
+	COLLISION = 1
+ENDSETMODEL
+#-------------------------------------
+#ポール
+#------------------------------------
+SETMODEL
+	POS = -50 0.0 -120
+	ROT = 0.0 0.0 0.0
+	TYPE = 12
+	COLLISION = 1
+ENDSETMODEL
+SETMODEL
+	POS = 520 -100.0 -120
+	ROT = 0.0 0.0 0.0
+	TYPE = 12
+	COLLISION = 1
+ENDSETMODEL
+#右奥　左から
+SETMODEL
+	POS = 590 -50.0 450
+	ROT = 0.0 0.0 0.0
+	TYPE = 12
+	COLLISION = 1
+ENDSETMODEL
+SETMODEL
+	POS = 620 -130.0 440
+	ROT = 0.0 0.0 0.0
+	TYPE = 12
+	COLLISION = 1
+ENDSETMODEL
+SETMODEL
+	POS = 640 -160.0 460
+	ROT = 0.0 0.0 0.0
+	TYPE = 12
+	COLLISION = 1
+ENDSETMODEL
+SETMODEL
+	POS = 650 -200.0 425
+	ROT = 0.0 0.0 0.0
+	TYPE = 12
+	COLLISION = 1
+ENDSETMODEL
+SETMODEL
+	POS = 680 -250.0 390
+	ROT = 0.0 0.0 0.0
+	TYPE = 12
+	COLLISION = 1
+ENDSETMODEL
+SETMODEL
+	POS = 680 -250.0 420
+	ROT = 0.0 0.0 0.0
+	TYPE = 12
+	COLLISION = 1
+ENDSETMODEL
+
+SETMODEL
+	POS = 680 -250.0 360
+	ROT = 0.0 0.0 0.0
+	TYPE = 12
+	COLLISION = 1
+ENDSETMODEL
+#池の中
+SETMODEL
+	POS = -310 -50.0 350
+	ROT = 0.0 0.0 0.0
+	TYPE = 12
+	COLLISION = 1
+ENDSETMODEL
+SETMODEL
+	POS = -410 -100.0 350
+	ROT = 0.0 0.0 0.0
+	TYPE = 12
+	COLLISION = 1
+ENDSETMODEL
+SETMODEL
+	POS = -510 -150.0 350
+	ROT = 0.0 0.0 0.0
+	TYPE = 12
+	COLLISION = 1
+ENDSETMODEL
+
+
+ENDSCRIPT

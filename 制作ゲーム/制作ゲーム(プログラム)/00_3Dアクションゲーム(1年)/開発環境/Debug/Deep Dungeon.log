@@ -1,0 +1,75 @@
+﻿  Prologue.cpp
+  コードを生成中...
+  コンパイル中...
+  main.cpp
+  コードを生成中...
+  コンパイル中...
+  tuto.cpp
+  result.cpp
+  コードを生成中...
+  コンパイル中...
+  SencerArrow.cpp
+  コードを生成中...
+  コンパイル中...
+  game.cpp
+  enemy_arrow.cpp
+  コードを生成中...
+  コンパイル中...
+  txt.cpp
+  sencer.cpp
+  player.cpp
+  motion.cpp
+c:\users\game119\desktop\deep dungeon\motion.cpp(40): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+c:\users\game119\desktop\deep dungeon\motion.cpp(166): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+c:\users\game119\desktop\deep dungeon\motion.cpp(265): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+  message.cpp
+  magicsquare.cpp
+  magic.cpp
+  life.cpp
+  erosion.cpp
+  enemyarcher2.cpp
+  enemyarcher1.cpp
+  enemyarcher0.cpp
+  enemy_axe2.cpp
+  enemy_axe.cpp
+  enemy8.cpp
+  enemy7.cpp
+  enemy6.cpp
+  enemy5.cpp
+  enemy4.cpp
+  enemy3.cpp
+  コードを生成中...
+  コンパイル中...
+  enemy2.cpp
+  enemy1.cpp
+  enemy0.cpp
+  enemy.cpp
+  died.cpp
+  camera.cpp
+  brazen.cpp
+  bosstext.cpp
+  bossmotion.cpp
+c:\users\game119\desktop\deep dungeon\bossmotion.cpp(41): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+c:\users\game119\desktop\deep dungeon\bossmotion.cpp(194): warning C4800: 'int': ブール値を 'true' または 'false' に強制的に設定します (警告の処理)
+  boss.cpp
+  arrow.cpp
+  WallBoss.cpp
+  Wall2.cpp
+  Wall1.cpp
+  StageBoss.cpp
+  Stage2.cpp
+  SencerNextStage.cpp
+  SencerLock.cpp
+  SencerEnemy.cpp
+  SencerEnableBoss.cpp
+  コードを生成中...
+  コンパイル中...
+  SencerEnableAttack.cpp
+  SencerCol.cpp
+  SencerAtk.cpp
+  コードを生成中...
+  コンパイル中...
+  meshfield.cpp
+  コードを生成中...
+  Deep Dungeon.vcxproj -> C:\Users\game119\Desktop\Deep Dungeon\Deep Dungeon.exe
+  Deep Dungeon.vcxproj -> C:\Users\game119\Desktop\Deep Dungeon\Deep Dungeon.pdb (Full PDB)

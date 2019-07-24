@@ -1,0 +1,687 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\boss">
+      <UniqueIdentifier>{3993640b-08f1-4a58-bbd8-7c4900379763}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\enemy_arrow">
+      <UniqueIdentifier>{368a9a81-73cb-413b-87ed-8cab972af2fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\enemy_axe">
+      <UniqueIdentifier>{210305d0-8f2c-4b85-8fc6-d8f90dfc7a7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\enemy_cpp">
+      <UniqueIdentifier>{9274e7d7-28fd-4857-9ef5-0fd48efac41e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\select">
+      <UniqueIdentifier>{3ad9c075-d62b-4a77-9244-814c6df571ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\sencer">
+      <UniqueIdentifier>{30e9ce40-b795-492b-822e-0870b35c6edf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\stage">
+      <UniqueIdentifier>{f39feec9-6ae1-436f-b639-95b67070de1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\boss_h">
+      <UniqueIdentifier>{0e4cdc1f-8b5d-4994-88a7-89a75dfd610c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\enemy_arrow_h">
+      <UniqueIdentifier>{25e11cf2-7e45-4846-bab8-17b9b047ceb7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\enemy_axe">
+      <UniqueIdentifier>{038b05c9-c172-4961-b717-00249a6ccc80}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\enemy_h">
+      <UniqueIdentifier>{674fa43f-7309-45a2-b598-9ffb6aab4fbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\select">
+      <UniqueIdentifier>{389ae8ac-147b-4a37-96cb-724babc70bca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\sencer_h">
+      <UniqueIdentifier>{147fb05e-cbf0-48b3-9ba2-25e12cdda043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\stage">
+      <UniqueIdentifier>{ba682459-2fa5-4eb0-853f-bea9d79b871e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bg.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="brazen.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="char_select.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="died.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="erosion.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="fade.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="fog.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="gallery.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="input.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="inputx.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="life.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="light.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="magic.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="magicsquare.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="meshfield.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="message.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="model.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="motion.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="option.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="particle.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="pause.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Prologue.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="result.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="shadow.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="sound.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="title.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="tuto.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="txt.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="boss.cpp">
+      <Filter>ソース ファイル\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="bossmotion.cpp">
+      <Filter>ソース ファイル\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="bosstext.cpp">
+      <Filter>ソース ファイル\boss</Filter>
+    </ClCompile>
+    <ClCompile Include="arrow.cpp">
+      <Filter>ソース ファイル\enemy_arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_arrow.cpp">
+      <Filter>ソース ファイル\enemy_arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_arrow_motion.cpp">
+      <Filter>ソース ファイル\enemy_arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_arrow_text.cpp">
+      <Filter>ソース ファイル\enemy_arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyarcher0.cpp">
+      <Filter>ソース ファイル\enemy_arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyarcher1.cpp">
+      <Filter>ソース ファイル\enemy_arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyarcher2.cpp">
+      <Filter>ソース ファイル\enemy_arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyarchermotion0.cpp">
+      <Filter>ソース ファイル\enemy_arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyarchermotion1.cpp">
+      <Filter>ソース ファイル\enemy_arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyarchermotion2.cpp">
+      <Filter>ソース ファイル\enemy_arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyarchertext0.cpp">
+      <Filter>ソース ファイル\enemy_arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyarchertext1.cpp">
+      <Filter>ソース ファイル\enemy_arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="enemyarchertext2.cpp">
+      <Filter>ソース ファイル\enemy_arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_axe.cpp">
+      <Filter>ソース ファイル\enemy_axe</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_axe_motion.cpp">
+      <Filter>ソース ファイル\enemy_axe</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_axe_motion2.cpp">
+      <Filter>ソース ファイル\enemy_axe</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_axe_text.cpp">
+      <Filter>ソース ファイル\enemy_axe</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_axe_text2.cpp">
+      <Filter>ソース ファイル\enemy_axe</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy_axe2.cpp">
+      <Filter>ソース ファイル\enemy_axe</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy.cpp">
+      <Filter>ソース ファイル\enemy_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy0.cpp">
+      <Filter>ソース ファイル\enemy_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy1.cpp">
+      <Filter>ソース ファイル\enemy_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy2.cpp">
+      <Filter>ソース ファイル\enemy_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy3.cpp">
+      <Filter>ソース ファイル\enemy_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy4.cpp">
+      <Filter>ソース ファイル\enemy_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy5.cpp">
+      <Filter>ソース ファイル\enemy_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy6.cpp">
+      <Filter>ソース ファイル\enemy_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy7.cpp">
+      <Filter>ソース ファイル\enemy_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="enemy8.cpp">
+      <Filter>ソース ファイル\enemy_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="enemymotion.cpp">
+      <Filter>ソース ファイル\enemy_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="enemymotion0.cpp">
+      <Filter>ソース ファイル\enemy_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="enemymotion1.cpp">
+      <Filter>ソース ファイル\enemy_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="enemymotion2.cpp">
+      <Filter>ソース ファイル\enemy_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="enemymotion3.cpp">
+      <Filter>ソース ファイル\enemy_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="enemymotion4.cpp">
+      <Filter>ソース ファイル\enemy_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="enemymotion5.cpp">
+      <Filter>ソース ファイル\enemy_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="enemymotion6.cpp">
+      <Filter>ソース ファイル\enemy_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="enemymotion7.cpp">
+      <Filter>ソース ファイル\enemy_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="enemymotion8.cpp">
+      <Filter>ソース ファイル\enemy_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="enemytext.cpp">
+      <Filter>ソース ファイル\enemy_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="enemytext0.cpp">
+      <Filter>ソース ファイル\enemy_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="enemytext1.cpp">
+      <Filter>ソース ファイル\enemy_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="enemytext2.cpp">
+      <Filter>ソース ファイル\enemy_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="enemytext3.cpp">
+      <Filter>ソース ファイル\enemy_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="enemytext4.cpp">
+      <Filter>ソース ファイル\enemy_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="enemytext5.cpp">
+      <Filter>ソース ファイル\enemy_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="enemytext6.cpp">
+      <Filter>ソース ファイル\enemy_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="enemytext7.cpp">
+      <Filter>ソース ファイル\enemy_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="enemytext8.cpp">
+      <Filter>ソース ファイル\enemy_cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="Select.cpp">
+      <Filter>ソース ファイル\select</Filter>
+    </ClCompile>
+    <ClCompile Include="Select_NO.cpp">
+      <Filter>ソース ファイル\select</Filter>
+    </ClCompile>
+    <ClCompile Include="Select_YES.cpp">
+      <Filter>ソース ファイル\select</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectBG.cpp">
+      <Filter>ソース ファイル\select</Filter>
+    </ClCompile>
+    <ClCompile Include="sencer.cpp">
+      <Filter>ソース ファイル\sencer</Filter>
+    </ClCompile>
+    <ClCompile Include="SencerArrow.cpp">
+      <Filter>ソース ファイル\sencer</Filter>
+    </ClCompile>
+    <ClCompile Include="SencerAtk.cpp">
+      <Filter>ソース ファイル\sencer</Filter>
+    </ClCompile>
+    <ClCompile Include="SencerCol.cpp">
+      <Filter>ソース ファイル\sencer</Filter>
+    </ClCompile>
+    <ClCompile Include="SencerEnableAttack.cpp">
+      <Filter>ソース ファイル\sencer</Filter>
+    </ClCompile>
+    <ClCompile Include="SencerEnableBoss.cpp">
+      <Filter>ソース ファイル\sencer</Filter>
+    </ClCompile>
+    <ClCompile Include="SencerEnemy.cpp">
+      <Filter>ソース ファイル\sencer</Filter>
+    </ClCompile>
+    <ClCompile Include="SencerLock.cpp">
+      <Filter>ソース ファイル\sencer</Filter>
+    </ClCompile>
+    <ClCompile Include="SencerNextStage.cpp">
+      <Filter>ソース ファイル\sencer</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage1.cpp">
+      <Filter>ソース ファイル\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage2.cpp">
+      <Filter>ソース ファイル\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="StageBoss.cpp">
+      <Filter>ソース ファイル\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Stagefade.cpp">
+      <Filter>ソース ファイル\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall1.cpp">
+      <Filter>ソース ファイル\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall2.cpp">
+      <Filter>ソース ファイル\stage</Filter>
+    </ClCompile>
+    <ClCompile Include="WallBoss.cpp">
+      <Filter>ソース ファイル\stage</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bg.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="brazen.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="char_select.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="died.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="erosion.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="fade.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="fog.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="gallery.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="game.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="input.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="inputx.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="life.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="light.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="magic.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="magicsquare.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="meshfield.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="message.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="motion.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="option.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="particle.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="pause.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="prologue.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="result.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="shadow.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="sound.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="title.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="tuto.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="txt.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="boss.h">
+      <Filter>ヘッダー ファイル\boss_h</Filter>
+    </ClInclude>
+    <ClInclude Include="bossmotion.h">
+      <Filter>ヘッダー ファイル\boss_h</Filter>
+    </ClInclude>
+    <ClInclude Include="bosstext.h">
+      <Filter>ヘッダー ファイル\boss_h</Filter>
+    </ClInclude>
+    <ClInclude Include="arrow.h">
+      <Filter>ヘッダー ファイル\enemy_arrow_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_arrow.h">
+      <Filter>ヘッダー ファイル\enemy_arrow_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_arrow_motion.h">
+      <Filter>ヘッダー ファイル\enemy_arrow_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_arrow_text.h">
+      <Filter>ヘッダー ファイル\enemy_arrow_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyarcher0.h">
+      <Filter>ヘッダー ファイル\enemy_arrow_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyarcher1.h">
+      <Filter>ヘッダー ファイル\enemy_arrow_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyarcher2.h">
+      <Filter>ヘッダー ファイル\enemy_arrow_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyarchermotion0.h">
+      <Filter>ヘッダー ファイル\enemy_arrow_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyarchermotion1.h">
+      <Filter>ヘッダー ファイル\enemy_arrow_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyarchermotion2.h">
+      <Filter>ヘッダー ファイル\enemy_arrow_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyarchertext0.h">
+      <Filter>ヘッダー ファイル\enemy_arrow_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyarchertext1.h">
+      <Filter>ヘッダー ファイル\enemy_arrow_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemyarchertext2.h">
+      <Filter>ヘッダー ファイル\enemy_arrow_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_axe.h">
+      <Filter>ヘッダー ファイル\enemy_axe</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_axe_motion.h">
+      <Filter>ヘッダー ファイル\enemy_axe</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_axe_motion2.h">
+      <Filter>ヘッダー ファイル\enemy_axe</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_axe_text.h">
+      <Filter>ヘッダー ファイル\enemy_axe</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_axe_text2.h">
+      <Filter>ヘッダー ファイル\enemy_axe</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy_axe2.h">
+      <Filter>ヘッダー ファイル\enemy_axe</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy.h">
+      <Filter>ヘッダー ファイル\enemy_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy0.h">
+      <Filter>ヘッダー ファイル\enemy_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy1.h">
+      <Filter>ヘッダー ファイル\enemy_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy2.h">
+      <Filter>ヘッダー ファイル\enemy_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy3.h">
+      <Filter>ヘッダー ファイル\enemy_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy4.h">
+      <Filter>ヘッダー ファイル\enemy_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy5.h">
+      <Filter>ヘッダー ファイル\enemy_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy6.h">
+      <Filter>ヘッダー ファイル\enemy_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy7.h">
+      <Filter>ヘッダー ファイル\enemy_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemy8.h">
+      <Filter>ヘッダー ファイル\enemy_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemymotion.h">
+      <Filter>ヘッダー ファイル\enemy_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemymotion0.h">
+      <Filter>ヘッダー ファイル\enemy_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemymotion1.h">
+      <Filter>ヘッダー ファイル\enemy_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemymotion2.h">
+      <Filter>ヘッダー ファイル\enemy_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemymotion3.h">
+      <Filter>ヘッダー ファイル\enemy_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemymotion4.h">
+      <Filter>ヘッダー ファイル\enemy_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemymotion5.h">
+      <Filter>ヘッダー ファイル\enemy_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemymotion6.h">
+      <Filter>ヘッダー ファイル\enemy_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemymotion7.h">
+      <Filter>ヘッダー ファイル\enemy_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemymotion8.h">
+      <Filter>ヘッダー ファイル\enemy_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemytext.h">
+      <Filter>ヘッダー ファイル\enemy_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemytext0.h">
+      <Filter>ヘッダー ファイル\enemy_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemytext1.h">
+      <Filter>ヘッダー ファイル\enemy_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemytext2.h">
+      <Filter>ヘッダー ファイル\enemy_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemytext3.h">
+      <Filter>ヘッダー ファイル\enemy_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemytext4.h">
+      <Filter>ヘッダー ファイル\enemy_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemytext5.h">
+      <Filter>ヘッダー ファイル\enemy_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemytext6.h">
+      <Filter>ヘッダー ファイル\enemy_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemytext7.h">
+      <Filter>ヘッダー ファイル\enemy_h</Filter>
+    </ClInclude>
+    <ClInclude Include="enemytext8.h">
+      <Filter>ヘッダー ファイル\enemy_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Select.h">
+      <Filter>ヘッダー ファイル\select</Filter>
+    </ClInclude>
+    <ClInclude Include="Select_NO.h">
+      <Filter>ヘッダー ファイル\select</Filter>
+    </ClInclude>
+    <ClInclude Include="Select_YES.h">
+      <Filter>ヘッダー ファイル\select</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectBG.h">
+      <Filter>ヘッダー ファイル\select</Filter>
+    </ClInclude>
+    <ClInclude Include="sencer.h">
+      <Filter>ヘッダー ファイル\sencer_h</Filter>
+    </ClInclude>
+    <ClInclude Include="sencerArrow.h">
+      <Filter>ヘッダー ファイル\sencer_h</Filter>
+    </ClInclude>
+    <ClInclude Include="SencerAtk.h">
+      <Filter>ヘッダー ファイル\sencer_h</Filter>
+    </ClInclude>
+    <ClInclude Include="SencerCol.h">
+      <Filter>ヘッダー ファイル\sencer_h</Filter>
+    </ClInclude>
+    <ClInclude Include="SencerEnableAttack.h">
+      <Filter>ヘッダー ファイル\sencer_h</Filter>
+    </ClInclude>
+    <ClInclude Include="SencerEnableBoss.h">
+      <Filter>ヘッダー ファイル\sencer_h</Filter>
+    </ClInclude>
+    <ClInclude Include="SencerEnemy.h">
+      <Filter>ヘッダー ファイル\sencer_h</Filter>
+    </ClInclude>
+    <ClInclude Include="SencerLock.h">
+      <Filter>ヘッダー ファイル\sencer_h</Filter>
+    </ClInclude>
+    <ClInclude Include="SencerNextStage.h">
+      <Filter>ヘッダー ファイル\sencer_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage1.h">
+      <Filter>ヘッダー ファイル\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage2.h">
+      <Filter>ヘッダー ファイル\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="StageBoss.h">
+      <Filter>ヘッダー ファイル\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Stagefade.h">
+      <Filter>ヘッダー ファイル\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall1.h">
+      <Filter>ヘッダー ファイル\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall2.h">
+      <Filter>ヘッダー ファイル\stage</Filter>
+    </ClInclude>
+    <ClInclude Include="WallBoss.h">
+      <Filter>ヘッダー ファイル\stage</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

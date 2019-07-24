@@ -1,0 +1,297 @@
+#------------------------------------------------------------------------
+# モデル情報[model.txt]
+# Author:RyotaKinoshita
+#------------------------------------------------------------------------
+SCRIPT
+
+#------------------------------------------------------------------------------
+# 読み込むテクスチャ数 最大24
+#------------------------------------------------------------------------------
+NUM_TEXTURE = 3
+
+#------------------------------------------------------------------------------
+# 読み込むテクスチャファイル名
+#------------------------------------------------------------------------------
+TEXTURE_FILENAME = data/TEXTURE/stone000.png	# [0]地面テクスチャ
+TEXTURE_FILENAME = data/TEXTURE/sea000.jpg
+TEXTURE_FILENAME = data/TEXTURE/sea000.png
+#------------------------------------------------------------------------------
+# 読み込むテクスチャ数 最大24
+#------------------------------------------------------------------------------
+NUM_WALL = 2
+
+#------------------------------------------------------------------------------
+# 読み込むテクスチャファイル名
+#------------------------------------------------------------------------------
+WALL_FILENAME = data/TEXTURE/festival000.jpg		# [0]地面1
+WALL_FILENAME = data/TEXTURE/wall001.jpg		# [1]壁
+
+#------------------------------------------------------------------------------
+# モデル数
+#------------------------------------------------------------------------------
+NUM_MODEL = 20
+
+#------------------------------------------------------------------------------
+# モデルファイル名 最大30
+#------------------------------------------------------------------------------
+MODEL_FILENAME = data/MODEL/kingyo_01.x						# [0]金魚すくい
+MODEL_FILENAME = data/MODEL/takoyaki_01.x					# [1]タコ焼き
+MODEL_FILENAME = data/MODEL/choko_01.x						# [2]チョコバナナ
+MODEL_FILENAME = data/MODEL/ike_01.x						# [3]池
+MODEL_FILENAME = data/MODEL/dai000.x						# [4]太鼓台
+MODEL_FILENAME = data/MODEL/chochin_01.x					# [5]提灯
+MODEL_FILENAME = data/MODEL/tree_01.x						# [6]木
+MODEL_FILENAME = data/MODEL/stone_01.x						# [7]石１
+MODEL_FILENAME = data/MODEL/stone_02.x						# [8]石２
+MODEL_FILENAME = data/MODEL/stone_03.x						# [9]石３
+MODEL_FILENAME = data/MODEL/stone_04.x						# [10]石４
+MODEL_FILENAME = data/MODEL/stone_05.x						# [11]石５
+MODEL_FILENAME = data/MODEL/pole_01.x						# [12]ポール
+MODEL_FILENAME = data/MODEL/jimen.x							# [13]地面
+MODEL_FILENAME = data/MODEL/ishi_01.x						# [14]地面？
+MODEL_FILENAME = data/MODEL/dai_taiko.x						# [15]太鼓
+MODEL_FILENAME = data/MODEL/chochin_02.x					# [16]提灯2
+MODEL_FILENAME = data/MODEL/Takoyaki.x					# [17]タコ焼き
+MODEL_FILENAME = data/MODEL/meteo.x						#[18]隕石
+MODEL_FILENAME = data/MODEL/fish.x						#[19]魚
+#------------------------------------------------------------------------------
+#持てるか持てないか　タイプ　０/１
+#------------------------------------------------------------------------------
+SETCATCH
+	CATCH = 0 0
+	CATCH = 1 0
+	CATCH = 2 0
+	CATCH = 3 0
+	CATCH = 4 0
+	CATCH = 5 0
+	CATCH = 6 0
+	CATCH = 7 0
+	CATCH = 8 0
+	CATCH = 9 0
+	CATCH = 10 0
+	CATCH = 11 0
+	CATCH = 12 0
+	CATCH = 13 0
+	CATCH = 14 0
+	CATCH = 15 0
+	CATCH = 16 0
+	CATCH = 17 1
+	CATCH = 18 1
+	CATCH = 18 1
+ENDSETCATCH
+SETGETINFO
+	GETINFO = 0 1
+	GETINFO = 1 1
+	GETINFO = 2 1
+	GETINFO = 3 0
+	GETINFO = 4 0
+	GETINFO = 5 0
+	GETINFO = 6 0
+	GETINFO = 7 0
+	GETINFO = 8 0
+	GETINFO = 9 0
+	GETINFO = 10 0
+	GETINFO = 11 0
+	GETINFO = 12 0
+	GETINFO = 13 0
+	GETINFO = 14 0
+	GETINFO = 15 1
+	GETINFO = 16 0
+	GETINFO = 17 1
+	GETINFO = 18 1
+	GETINFO = 18 1
+ENDSETGETINFO
+#------------------------------------------------------------------------------
+# ブロック	あたり判定
+# 正方形なら半径のみ使用すると効率がいいかも
+# XYZはモデルの原点からのオフセット
+#------------------------------------------------------------------------------
+
+SETCOLLISION
+# タイプ X Y Z 半径 幅 奥行き 高さ
+# --------- 本(横向き) --------------#
+	COLLISION = 0	 0 0 -20	 0 150 60 30 		# 金魚水槽
+	COLLISION = 0	 0 120 5	 0 160 150 50 		# 金魚屋根
+	COLLISION = 0	 0 0 90	 	 0 160 20 120 		# 金魚後ろ
+	COLLISION = 1	 0 0 10	 	 0 140 70 60 		# たこ焼き台
+	COLLISION = 1	 0 120 30	 0 160 160 50 		# たこ焼き屋根
+	COLLISION = 1	 0 0 120	 0 160 20 120 		# たこ焼き後ろ
+	COLLISION = 2	 0 0 10	 	 0 140 70 60 		# チョコバナナ台
+	COLLISION = 2	 0 120 30	 0 160 160 50 		# チョコバナナ屋根
+	COLLISION = 2	 0 0 120	 0 160 20 120 		# チョコバナナ後ろ
+	COLLISION = 4	 0 350 0	 62 0 0 10 			# 太鼓屋根
+	COLLISION = 4	 0 360 0	 0 130 110 10 		# 太鼓屋根
+	COLLISION = 4	 0 370 0	 0 104 110 10 		# 太鼓屋根
+	COLLISION = 4	 0 380 0	 0 64 110 10 		# 太鼓屋根
+	COLLISION = 4	 0 0 0	 	 62 0 0 240 		# 太鼓台
+	COLLISION = 4	 0 0 0	 	 72 0 0 180 		# 太鼓台
+	COLLISION = 4	 0 0 0	 	 82 0 0 110 		# 太鼓台
+	COLLISION = 4	 0 0 0	 	 92 0 0 50 			# 太鼓台
+	COLLISION = 7	 0 0 0	 	 0 55 55 20 		# 岩１
+	COLLISION = 7	 0 20 3	 	 0 45 50 10 		# 岩１
+	COLLISION = 8	 0 0 0	 	 0 35 35 5			# 岩2
+	COLLISION = 8	 0 5 0	 	 0 27 27 13 		# 岩2
+	COLLISION = 9	 0 0 0	 	 0 50 50 10 		# 岩3
+	COLLISION = 9	 0 10 0	 	 0 45 45 20 		# 岩3
+	COLLISION = 10	 0 0 0	 	 0 65 65 20 		# 岩4
+	COLLISION = 10	 0 20 0	 	 0 60 60 10 		# 岩4
+	COLLISION = 10	 -5 30 0	 0 45 55 12 		# 岩4
+	COLLISION = 11	 0 0 0	 	 0 30 30 17 		# 岩5
+	COLLISION = 3	 0 0 -220	 0 100 125 25 		# 池
+	COLLISION = 3	 0 25 -220	 0 100 115 10 		# 池
+	COLLISION = 3	 0 35 -215	 0 100 100 15 		# 池
+	COLLISION = 3	 5 50 -205	 0 85 85 10 		# 池
+	COLLISION = 3	 -5 60 -205	 0 50 60 13 		# 池
+	
+	COLLISION = 3	 100 0 -190	 	 0 130 125 25 		# 池
+	COLLISION = 3	 100 25 -190	 0 130 115 10 		# 池
+	COLLISION = 3	 110 35 -185	 0 100 100 15 		# 池
+	COLLISION = 3	 105 50 -175	 0 85 85 10 		# 池
+	COLLISION = 3	 95 60 -175 	 0 50 60 13 		# 池
+	
+	COLLISION = 3	 145 0 -110 	 0 95 100 20 		# 池
+	COLLISION = 3	 145 20 -110 	 0 80 70 22 		# 池
+	
+	COLLISION = 3	 187 0 -25 	 	 0 115 110 25 		# 池
+	COLLISION = 3	 185 25 -40 	 0 95 45 13 		# 池
+	COLLISION = 3	 190 25 -3 	 	 0 70 35 10 		# 池
+	
+	COLLISION = 3	 205 0 65	 	 0 85 80 20 		# 池
+	COLLISION = 3	 200 20 65	 	 0 65 70 15 		# 池
+	COLLISION = 3	 202 35 62	 	 0 48 50 8 			# 池
+	
+	COLLISION = 3	 145 0 145	 	 0 85 95 33 		# 池
+	COLLISION = 3	 145 33 145	 	 0 30 60 13 		# 池
+	COLLISION = 3	 123 33 138	 	 0 18 50 8 			# 池
+	COLLISION = 3	 167 33 138	 	 0 13 38 10 		# 池
+	
+	COLLISION = 3	 70 0 160	 	 0 70 30 45		 	# 池
+	COLLISION = 3	 100 0 170	 	 0 50 30 45		 	# 池
+	
+	COLLISION = 3	 -55 0 -205	 	0 15 110 35 		# 池
+	COLLISION = 3	 -88 0 -200	 	0 50 110 35 		# 池
+	COLLISION = 3	 -125 0 -223	0 25 55 38 			# 池
+	COLLISION = 3	 -80 38 -200	0 70 70 23 			# 池
+	COLLISION = 3	 -70 38 -240	0 40 20 13 			# 池
+	
+	COLLISION = 3	 -155 0 -130	0 55 50 45 			# 池
+	COLLISION = 3	 -155 0 -130	0 85 70 30 			# 池
+	
+	COLLISION = 3	 -195 0 -60		0 70 70 30 			# 池
+	COLLISION = 3	 -200 30 -62	0 55 55 15 			# 池
+	
+	COLLISION = 3	 -185 0 5		0 100 80 30 			# 池
+	COLLISION = 3	 -180 30 20		0 75 55 8 			# 池
+	
+	COLLISION = 6	 100 0 -98		0 35 45 25 			# 木
+	COLLISION = 6	 63 0 -91		0 35 45 35 			# 木
+	COLLISION = 6	 22 0 -85		0 45 55 45 			# 木
+	COLLISION = 6	 -25 0 -85		0 45 55 55 			# 木
+	COLLISION = 6	 -60 0 -90		0 45 55 70 			# 木
+	COLLISION = 6	 -70 70 -90		0 25 30 25 		# 木
+	COLLISION = 6	 -105 140 -100		0 25 30 25 		# 木
+	COLLISION = 6	 -100 200 -90		0 25 30 25 		# 木
+	COLLISION = 6	 -87 260 -80		0 25 30 25 		# 木
+	COLLISION = 6	 -77 310 -65		0 25 30 25 		# 木
+	COLLISION = 6	 -10 0 -115		0 90 15 25 		# 木
+	
+	COLLISION = 6	 -80 0 -130			0 35 20 20 		# 木
+	COLLISION = 6	 -115 0 -130		0 35 75 20 		# 木
+	COLLISION = 6	 -130 20 -140		0 20 30 35 		# 木
+	
+	COLLISION = 6	 -90 40 -115		0 70 20 25 		# 木
+	COLLISION = 6	 -90 80 -120		0 35 20 15 		# 木
+	COLLISION = 6	 -105 100 -120		0 35 20 30 		# 木
+	COLLISION = 6	 -110 160 -120		0 25 20 30 		# 木
+	COLLISION = 6	 -115 220 -110		0 25 20 30 		# 木
+	COLLISION = 6	 -115 280 -90		0 25 20 30 		# 木
+	
+	COLLISION = 6	 -137 230 -105		0 25 20 30 		# 木
+	COLLISION = 6	 -142 140 -126		0 25 20 40 		# 木
+	COLLISION = 6	 -142 90 -126		0 25 20 30 		# 木
+	COLLISION = 6	 -140 190 -120		0 30 15 30 		# 木
+	COLLISION = 6	 -150 60 -140		0 30 30 15 		# 木
+	COLLISION = 6	 -155 35 -160		0 30 30 25 		# 木
+	COLLISION = 6	 -162 25 -185		0 30 30 25 		# 木
+	COLLISION = 6	 -164 15 -210		0 30 30 25 		# 木
+	COLLISION = 6	 -164 5 -240		0 30 30 25 		# 木
+	COLLISION = 6	 -160 0 -270		0 35 30 25 		# 木
+	COLLISION = 6	 -145 0 -200		0 20 90 25 		# 木
+	
+	COLLISION = 6	 -50 0 70		0 15 10 20  		# 木
+	COLLISION = 6	 -42 0 45		0 30 40 20  		# 木
+	COLLISION = 6	 -50 0 5		0 40 40 35  		# 木
+	COLLISION = 6	 -60 0 -35		0 40 40 48  		# 木
+	COLLISION = 6	 -75 48 -50		0 40 25 20  		# 木
+	COLLISION = 6	 -120 0 -38		0 65 40 48  		# 木
+	COLLISION = 6	 -125 48 -60	0 55 25 20  		# 木
+	COLLISION = 6	 -125 68 -65	0 70 15 70  		# 木
+	COLLISION = 6	 -190 0 -38		0 65 70 48  		# 木
+	
+	COLLISION = 6	 -80 350 -50	0 80 80 30 			# 木
+	COLLISION = 6	 -80 380 -50	0 300 270 30 		# 木
+	COLLISION = 6	 0 410 -50		0 550 290 30 		# 木
+	COLLISION = 6	 30 440 -50		0 660 290 30 		# 木
+	COLLISION = 6	 15 470 -50		0 650 290 30 		# 木
+	COLLISION = 6	 0 500 -50		0 600 290 30 		# 木
+	COLLISION = 6	 0 530 -50		0 550 260 30 		# 木
+	COLLISION = 6	 -40 560 -50	0 450 240 30 		# 木
+	COLLISION = 6	 -40 590 -50	0 420 180 30 		# 木
+	COLLISION = 6	 -40 620 -50	0 330 140 15 		# 木
+	
+	COLLISION = 12	 0 0 0		 	 10 0 0 300 		# ポール
+	COLLISION = 13	 0 -300 0		 	 0 1100 900 305 		# 本
+	COLLISION = 13	 575 -300 0		 	 0 50 800 305 		# 本
+	COLLISION = 13	 625 -300 0		 	 0 50 600 305 		# 本
+	COLLISION = 13	 675 -300 0		 	 0 50 400 305 		# 本
+	COLLISION = 13	 -575 -300 0		 	 0 50 800 305 		# 本
+	COLLISION = 13	 -625 -300 0		 	 0 50 600 305 		# 本
+	COLLISION = 13	 -675 -300 0		 	 0 50 400 305 		# 本
+	COLLISION = 15	 0 0 0		 	 0 50 60 90 		# 太鼓
+
+	COLLISION = 16	 307 -26 -2		 	 0 23 23 20 		# 提灯
+	COLLISION = 16	 277 -30 -2		 	 0 23 23 20 		# 提灯
+	COLLISION = 16	 247 -32 -2		 	 0 23 23 20 		# 提灯
+	COLLISION = 16	 220 -34 -2		 	 0 23 23 20 		# 提灯
+	COLLISION = 16	 190 -36 -2		 	 0 23 23 20 		# 提灯
+	COLLISION = 16	 164 -38 -2		 	 0 23 23 20 		# 提灯
+	COLLISION = 16	 134 -36 -2		 	 0 23 23 20 		# 提灯
+	COLLISION = 16	 109 -34 -2		 	 0 23 23 20 		# 提灯
+	COLLISION = 16	 77 -30 -2		 	 0 23 23 20 		# 提灯
+	COLLISION = 16	 50 -25 -2		 	 0 23 23 20 		# 提灯
+	COLLISION = 16	 20 -20 -2		 	 0 23 23 20 		# 提灯
+	COLLISION = 16	 -5 -15 -2		 	 0 23 23 20 		# 提灯　中心
+	COLLISION = 16	 -30 -10 -2		 	 0 23 23 20 		# 
+	COLLISION = 16	 -55 -5 -2		 	 0 23 23 20 		# 
+	COLLISION = 16	 -85 5 -2		 	 0 23 23 20 		# 
+	COLLISION = 16	 -108 12 -2		 	 0 23 23 20 		# 
+	COLLISION = 16	 -135 22 -2		 	 0 23 23 20 		# 
+	COLLISION = 16	 -160 35 -2		 	 0 23 23 20 		# 
+	COLLISION = 16	 -187 49 -2		     0 23 23 20 		# 
+	COLLISION = 17	 0 -25 0		     0 50 50 50 		# 
+		
+	COLLISION = 5	 0 -27 -310		 	 0 23 23 20 		# 提灯
+	COLLISION = 5	 0 -30 -280		 	 0 23 23 20 		# 提灯
+	COLLISION = 5	 0 -33 -250		 	 0 23 23 20 		# 提灯
+	COLLISION = 5	 0 -36 -220		 	 0 23 23 20 		# 提灯
+	COLLISION = 5	 0 -36 -190		 	 0 23 23 20 		# 提灯
+	COLLISION = 5	 0 -36 -160		 	 0 23 23 20 		# 提灯
+	COLLISION = 5	 0 -36 -130		 	 0 23 23 20 		# 提灯
+	COLLISION = 5	 0 -33 -100		 	 0 23 23 20 		# 提灯
+	COLLISION = 5	 0 -30 -70		 	 0 23 23 20 		# 提灯
+	COLLISION = 5	 0 -27 -40		 	 0 23 23 20 		# 提灯
+	COLLISION = 5	 0 -25 -10		 	 0 23 23 20 		# 提灯
+	COLLISION = 5	 0 -15 20		 	 0 23 23 20 		# 提灯
+	COLLISION = 5	 0 -5  50		 	 0 23 23 20 		# 提灯
+	COLLISION = 5	 0 5   80		 	 0 23 23 20 		# 提灯
+	COLLISION = 5	 0 15 110		 	 0 23 23 20 		# 提灯
+	COLLISION = 5	 0 25 140		 	 0 23 23 20 		# 提灯
+	COLLISION = 5	 0 35 170		 	 0 23 23 20 		# 提灯
+
+	COLLISION = 18	 0 -50 0		 	 0 130 130 130 		# 隕石
+	COLLISION = 19	 0 -12.5 0		 	 0 25 25 25 		# 魚
+
+ENDSETCOLLISION
+
+
+ENDSCRIPT
